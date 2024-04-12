@@ -1,14 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-
-@layer components{
-  .bg{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(111,8,105,1) 32%, rgba(86,9,121,1) 35%, rgba(255,0,253,1) 100%);
-  }
-}
+/* ///simple css */
 * {
   margin: 0;
   padding: 0;
@@ -340,23 +331,17 @@ body {
   cursor: pointer;
 }
 
-/* defines styles for screens up to 599px wide */
-@media screen and (max-width: 599px) {
-  .left {
-    display: none;
-  }
 
-  .right {
-    height: auto;
-    width: 100%;
-    align-items: center;
-  }
 
-  .desktopPhotos {
-    display: none;
-  }
+/* ///linking tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  .mobileContent {
-    display: block;
+
+@layer components{
+  .bg{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(111,8,105,1) 32%, rgba(86,9,121,1) 35%, rgba(255,0,253,1) 100%);
   }
 }

@@ -1,6 +1,6 @@
 const details = gsap.utils.toArray(".desktopContentSection:not(:first-child)");
 const photos = gsap.utils.toArray(".desktopPhoto:not(:first-child)");
-AOS.init();
+AOS.init(); ///animate on scroll
 gsap.set(photos, { yPercent: 101 });
 
 const allPhotos = gsap.utils.toArray(".desktopPhoto");
@@ -32,7 +32,7 @@ mm.add("(min-width: 600px)", () => {
   });
 });
 
-///inital js
+///inital js for slider
 var options = {
   accessibility: true,
   prevNextButtons: false,
