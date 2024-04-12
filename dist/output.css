@@ -627,10 +627,6 @@ video {
   left: 20rem;
 }
 
-.left-9 {
-  left: 2.25rem;
-}
-
 .left-\[-1\.1rem\] {
   left: -1.1rem;
 }
@@ -651,8 +647,8 @@ video {
   left: 24rem;
 }
 
-.left-\[4rem\] {
-  left: 4rem;
+.left-\[7rem\] {
+  left: 7rem;
 }
 
 .right-0 {
@@ -743,12 +739,32 @@ video {
   top: 8rem;
 }
 
-.left-\[7rem\] {
-  left: 7rem;
+.top-20 {
+  top: 5rem;
 }
 
-.left-\[-7rem\] {
-  left: -7rem;
+.top-\[\] {
+  top: ;
+}
+
+.top-\[-10rem\] {
+  top: -10rem;
+}
+
+.top-\[-5rem\] {
+  top: -5rem;
+}
+
+.top-\[-3rem\] {
+  top: -3rem;
+}
+
+.top-\[-1rem\] {
+  top: -1rem;
+}
+
+.top-\[-2rem\] {
+  top: -2rem;
 }
 
 .my-2 {
@@ -837,6 +853,22 @@ video {
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -888,6 +920,26 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-96 {
+  width: 24rem;
 }
 
 .flex-col {
@@ -1068,6 +1120,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-100 {
+  --tw-bg-opacity: 1;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -1171,6 +1227,14 @@ video {
 
 .opacity-\[\.3\] {
   opacity: .3;
+}
+
+.opacity-15 {
+  opacity: 0.15;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 * {
@@ -1554,6 +1618,10 @@ body {
   .sm\:w-\[40\%\] {
     width: 40%;
   }
+
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1575,36 +1643,12 @@ body {
     left: -5.5rem;
   }
 
-  .lg\:left-\[9rem\] {
-    left: 9rem;
+  .lg\:left-\[17rem\] {
+    left: 17rem;
   }
 
   .lg\:right-\[-15rem\] {
     right: -15rem;
-  }
-
-  .lg\:left-\[\] {
-    left: ;
-  }
-
-  .lg\:left-\[16rem\] {
-    left: 16rem;
-  }
-
-  .lg\:left-\[rem\] {
-    left: rem;
-  }
-
-  .lg\:left-\[14rem\] {
-    left: 14rem;
-  }
-
-  .lg\:left-\[10rem\] {
-    left: 10rem;
-  }
-
-  .lg\:left-\[17rem\] {
-    left: 17rem;
   }
 
   .lg\:px-44 {
