@@ -627,16 +627,24 @@ video {
   left: 20rem;
 }
 
-.left-\[-2\.5rem\] {
-  left: -2.5rem;
+.left-9 {
+  left: 2.25rem;
 }
 
-.left-\[-5\.5rem\] {
-  left: -5.5rem;
+.left-\[-1\.1rem\] {
+  left: -1.1rem;
 }
 
-.left-\[1rem\] {
-  left: 1rem;
+.left-\[-1\.3rem\] {
+  left: -1.3rem;
+}
+
+.left-\[-1\.5rem\] {
+  left: -1.5rem;
+}
+
+.left-\[-1\.8rem\] {
+  left: -1.8rem;
 }
 
 .left-\[24rem\] {
@@ -735,60 +743,12 @@ video {
   top: 8rem;
 }
 
-.left-\[-2\.2rem\] {
-  left: -2.2rem;
+.left-\[7rem\] {
+  left: 7rem;
 }
 
-.left-\[-2rem\] {
-  left: -2rem;
-}
-
-.left-\[-1\.3rem\] {
-  left: -1.3rem;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[-2\] {
-  left: -2;
-}
-
-.left-\[-1\.5rem\] {
-  left: -1.5rem;
-}
-
-.left-\[-\.5rem\] {
-  left: -.5rem;
-}
-
-.left-\[-\.9rem\] {
-  left: -.9rem;
-}
-
-.left-\[-1\.2rem\] {
-  left: -1.2rem;
-}
-
-.left-\[-1\.7rem\] {
-  left: -1.7rem;
-}
-
-.left-\[-1\.8rem\] {
-  left: -1.8rem;
-}
-
-.left-\[\/4rem\] {
-  left: /4rem;
-}
-
-.left-\[\.4rem\] {
-  left: .4rem;
-}
-
-.left-\[-1\.1rem\] {
-  left: -1.1rem;
+.left-\[-7rem\] {
+  left: -7rem;
 }
 
 .my-2 {
@@ -1163,14 +1123,14 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-sm {
@@ -1181,11 +1141,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -1612,24 +1567,44 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .lg\:left-60 {
-    left: 15rem;
-  }
-
-  .lg\:left-\[4rem\] {
-    left: 4rem;
-  }
-
-  .lg\:right-\[-15rem\] {
-    right: -15rem;
+  .lg\:left-\[-2\.5rem\] {
+    left: -2.5rem;
   }
 
   .lg\:left-\[-5\.5rem\] {
     left: -5.5rem;
   }
 
-  .lg\:left-\[-2\.5rem\] {
-    left: -2.5rem;
+  .lg\:left-\[9rem\] {
+    left: 9rem;
+  }
+
+  .lg\:right-\[-15rem\] {
+    right: -15rem;
+  }
+
+  .lg\:left-\[\] {
+    left: ;
+  }
+
+  .lg\:left-\[16rem\] {
+    left: 16rem;
+  }
+
+  .lg\:left-\[rem\] {
+    left: rem;
+  }
+
+  .lg\:left-\[14rem\] {
+    left: 14rem;
+  }
+
+  .lg\:left-\[10rem\] {
+    left: 10rem;
+  }
+
+  .lg\:left-\[17rem\] {
+    left: 17rem;
   }
 
   .lg\:px-44 {
